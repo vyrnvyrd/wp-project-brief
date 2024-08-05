@@ -1,8 +1,11 @@
 import './App.css';
+import Toolbar from './Components/Toolbar';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Toolbar />
+    </div>
   );
 }
 
