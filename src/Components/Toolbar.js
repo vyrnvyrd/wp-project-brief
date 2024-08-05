@@ -26,10 +26,10 @@ const Toolbar = () => {
             FREE DELIVERY FOR ORDERS ABOVE $199
           </p>
           <div>
-            <FaShoppingCart className="text-[20px] lg:text-[25px] text-[#9B622F] my-auto mx-[8px] lg:mx-[20px] cursor-pointer hover:text-[#9B622F]/50" />
+            <FaShoppingCart className="text-[20px] lg:text-[25px] text-[#9B622F] my-auto mx-[8px] lg:mx-[10px] cursor-pointer hover:text-[#9B622F]/50" />
           </div>
           <div>
-            <FaUser className="hidden lg:inline text-[25px] text-[#9B622F] my-auto ml-[20px] cursor-pointer hover:text-[#9B622F]/50" />
+            <FaUser className="hidden lg:inline text-[25px] text-[#9B622F] my-auto ml-[10px] cursor-pointer hover:text-[#9B622F]/50" />
           </div>
           <div>
             <FaBars className="lg:hidden text-[20px] my-auto ml-[8px] cursor-pointer hover:text-slate-400" />
