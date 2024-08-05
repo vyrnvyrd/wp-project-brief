@@ -2,7 +2,7 @@ import { FaShoppingCart, FaUser, FaBars } from 'react-icons/fa';
 
 const Toolbar = () => {
   return (
-    <div className="shadow-md h-[95px] flex items-center justify-between px-[30px] xl:px-[80px]">
+    <div className="shadow-md h-[55px] lg:h-[95px] flex items-center justify-between px-[25px] xl:px-[80px] fixed w-full bg-white top-0 z-10">
       <div className="flex">
         <p className="font-bodoni text-[20px] xl:text-[28px] mr-[40px] cursor-pointer">
           LE DIAMONDS
@@ -22,13 +22,13 @@ const Toolbar = () => {
           FREE DELIVERY FOR ORDERS ABOVE $199
         </p>
         <div>
-          <FaShoppingCart className="text-[25px] text-[#9B622F] my-auto mx-[10px] lg:mx-[20px] cursor-pointer hover:text-[#9B622F]/50" />
+          <FaShoppingCart className="text-[20px] lg:text-[25px] text-[#9B622F] my-auto mx-[8px] lg:mx-[20px] cursor-pointer hover:text-[#9B622F]/50" />
         </div>
         <div>
           <FaUser className="hidden lg:inline text-[25px] text-[#9B622F] my-auto ml-[20px] cursor-pointer hover:text-[#9B622F]/50" />
         </div>
         <div>
-          <FaBars className="lg:hidden text-[25px] my-auto ml-[10px] cursor-pointer hover:text-slate-400" />
+          <FaBars className="lg:hidden text-[20px] my-auto ml-[8px] cursor-pointer hover:text-slate-400" />
         </div>
       </div>
     </div>

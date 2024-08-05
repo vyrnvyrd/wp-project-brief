@@ -14,10 +14,85 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Playfair-Display';
+  src: url('../public/fonts/PlayfairDisplay-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/fonts/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
 .font-bodoni {
   font-family: Bodoni-72;
 }
 
 .font-cabin {
   font-family: Cabin;
+}
+
+.font-playfair-display {
+  font-family: Playfair-Display;
+}
+
+.font-poppins {
+  font-family: Poppins;
+}
+
+.container-display-one {
+  background-image: url('./Assets/Img/Banner-Two.png');
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.padding-display-one {
+  padding-top: 15px;
+}
+
+@media only screen and (min-width: 375px) {
+  .padding-display-one {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .container-display-one {
+    height: 310px;
+  }
+
+  .padding-display-one {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-display-one {
+    background-image: url('./Assets/Img/Banner-One.png');
+  }
+
+  .padding-display-one {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-display-one {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1044px) {
+  .container-display-one {
+    height: 516px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .container-display-one {
+    height: 1000px;
+  }
 }
