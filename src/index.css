@@ -15,6 +15,12 @@
 }
 
 @font-face {
+  font-family: 'Cabin';
+  src: url('../public/fonts/Cabin-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
   font-family: 'Playfair-Display';
   src: url('../public/fonts/PlayfairDisplay-Regular.ttf');
   font-weight: 400;
@@ -53,15 +59,23 @@
   padding-top: 15px;
 }
 
+.container-display-two {
+  height: 250px;
+}
+
 @media only screen and (min-width: 375px) {
   .padding-display-one {
     padding-top: 40px;
+  }
+
+  .container-display-two {
+    height: 150px;
   }
 }
 
 @media only screen and (min-width: 425px) {
   .container-display-one {
-    height: 310px;
+    height: 280px;
   }
 
   .padding-display-one {
@@ -93,6 +107,6 @@
 
 @media only screen and (min-width: 2560px) {
   .container-display-one {
-    height: 1000px;
+    height: 950px;
   }
 }
