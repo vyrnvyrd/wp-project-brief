@@ -2,7 +2,7 @@ import { Button, ConfigProvider } from 'antd';
 
 const DisplayOne = () => {
   return (
-    <div className="container-display-one mt-[50px] lg:mt-[100px] pl-5 lg:pl-[50px] xl:pl-[100px] md:flex md:items-center">
+    <div className="container-display-one mt-[60px] lg:mt-[100px] pl-5 lg:pl-[50px] xl:pl-[100px] md:flex md:items-center">
       <div className="padding-display-one">
         <div className="flex">
           <hr className="w-[25.02px] my-auto mr-3 border-b-[1px] border-black" />
