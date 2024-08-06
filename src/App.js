@@ -9,10 +9,11 @@ import DisplayFive from './Components/DisplayFive';
 import DisplaySix from './Components/DisplaySix';
 import DisplaySeven from './Components/DisplaySeven';
 import DisplayEight from './Components/DisplayEight';
+import Bottom from './Components/Bottom';
 
 function App() {
   return (
-    <div className="mb-10">
+    <div>
       <Toolbar />
       <DisplayOne />
       <div className="xl:px-[70px]">
@@ -33,6 +34,7 @@ function App() {
         </div>
       </div>
       <DisplayEight />
+      <Bottom />
     </div>
   );
 }

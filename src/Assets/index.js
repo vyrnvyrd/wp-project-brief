@@ -18,6 +18,7 @@ import DisplaySevenProductTwo from './Img/Display-Seven-Product-Two.png';
 import DisplaySevenProductThree from './Img/Display-Seven-Product-Three.png';
 import DisplaySevenProductFour from './Img/Display-Seven-Product-Four.png';
 import DisplaySevenProductFive from './Img/Display-Seven-Product-Five.png';
+import BottomOne from './Img/Bottom-One.png';
 
 export {
   Banner,
@@ -40,4 +41,5 @@ export {
   DisplaySevenProductThree,
   DisplaySevenProductFour,
   DisplaySevenProductFive,
+  BottomOne,
 };

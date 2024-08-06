@@ -130,6 +130,13 @@
   background-size: cover;
 }
 
+.bg-bottom-one {
+  background-image: url('./Assets/Img/Bottom-One.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .p-carousel .p-carousel-indicators .p-carousel-indicator button {
   background-color: #e9ecef;
   width: 8px;
