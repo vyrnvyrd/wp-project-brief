@@ -59,6 +59,7 @@
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin-top: 90px;
 }
 
 .padding-display-one {
@@ -102,6 +103,10 @@
 }
 
 @media only screen and (min-width: 375px) {
+  .container-display-one {
+    margin-top: 60px;
+  }
+
   .padding-display-one {
     padding-top: 40px;
   }
