@@ -29,7 +29,7 @@ const DisplayTwo = () => {
             <img alt="handlove w-[26px]" src={Handlove} />
           </div>
           <div>
-            <p className="font-cabin text-[14px] font-bold">ETHICALLY MADEY</p>
+            <p className="font-cabin text-[14px] font-bold">ETHICALLY MADE</p>
             <p className="font-cabin text-[14px] text-[#868686]">
               From sustainable sources
             </p>
