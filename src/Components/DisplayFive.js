@@ -8,7 +8,7 @@ const DisplayFive = () => {
 
   const cardOne = (i) => {
     return (
-      <div className="pic-display-five lg:w-[150px] xl:w-[200px] xl:h-[250px] bg-[#F2F2F2]">
+      <div className="pic-display-five lg:w-[140px] xl:w-[200px] xl:h-[250px] bg-[#F2F2F2]">
         <img alt={`cincin-${i}`} src={DisplayThreeProductFive} />
         <p className="text-[12px] font-cabin text-center">STÉPHANE</p>
         <p className="text-[12px] font-cabin text-center text-[#868686]">
@@ -20,7 +20,7 @@ const DisplayFive = () => {
 
   const cardTwo = (i) => {
     return (
-      <div className="pic-display-five lg:w-[150px] xl:w-[200px] xl:h-[250px] bg-[#F2F2F2]">
+      <div className="pic-display-five lg:w-[140px] xl:w-[200px] xl:h-[250px] bg-[#F2F2F2]">
         <img alt={`anting-${i}`} src={DisplayThreeProductTwo} />
         <p className="text-[12px] font-cabin text-center">ANDRÉE</p>
         <p className="text-[12px] font-cabin text-center text-[#868686]">
