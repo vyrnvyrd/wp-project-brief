@@ -90,6 +90,17 @@
   background-size: cover;
 }
 
+.bg-display-five {
+  background-image: url('./Assets/Img/Display-Five-Product-One.jpeg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic-display-five {
+  width: 155px;
+}
+
 @media only screen and (min-width: 375px) {
   .padding-display-one {
     padding-top: 40px;
@@ -97,6 +108,10 @@
 
   .container-display-two {
     height: 150px;
+  }
+
+  .pic-display-five {
+    width: 180px;
   }
 }
 
@@ -108,6 +123,10 @@
   .padding-display-one {
     padding-top: 70px;
   }
+
+  .pic-display-five {
+    width: 210px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -117,6 +136,10 @@
 
   .padding-display-one {
     padding-top: 0px;
+  }
+
+  .pic-display-five {
+    width: 180px;
   }
 }
 

@@ -4,6 +4,7 @@ import DisplayOne from './Components/DisplayOne';
 import DisplayTwo from './Components/DisplayTwo';
 import DisplayThree from './Components/DisplayThree';
 import DisplayFour from './Components/DisplayFour';
+import DisplayFive from './Components/DisplayFive';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <DisplayTwo />
         <DisplayThree />
         <DisplayFour />
+        <DisplayFive />
       </div>
     </div>
   );
