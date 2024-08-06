@@ -3,6 +3,7 @@ import Toolbar from './Components/Toolbar';
 import DisplayOne from './Components/DisplayOne';
 import DisplayTwo from './Components/DisplayTwo';
 import DisplayThree from './Components/DisplayThree';
+import DisplayFour from './Components/DisplayFour';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="xl:px-[70px]">
         <DisplayTwo />
         <DisplayThree />
+        <DisplayFour />
       </div>
     </div>
   );

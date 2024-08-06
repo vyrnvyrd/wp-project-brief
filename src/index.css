@@ -27,6 +27,12 @@
 }
 
 @font-face {
+  font-family: 'Playfair-Display';
+  src: url('../public/fonts/PlayfairDisplay-SemiBold.ttf');
+  font-weight: 500;
+}
+
+@font-face {
   font-family: 'Poppins';
   src: url('../public/fonts/Poppins-Regular.ttf');
   font-weight: 400;
