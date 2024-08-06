@@ -209,16 +209,28 @@
   .bg-display-three-three {
     height: 390px;
   }
+
+  .bg-bottom-one {
+    width: 70% !important;
+  }
 }
 
 @media only screen and (min-width: 1044px) {
   .container-display-one {
     height: 516px;
   }
+
+  .bg-bottom-one {
+    width: 50% !important;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
   .container-display-one {
     height: 950px;
+  }
+
+  .bg-bottom-one {
+    width: 40% !important;
   }
 }
