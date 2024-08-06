@@ -5,6 +5,7 @@ import DisplayTwo from './Components/DisplayTwo';
 import DisplayThree from './Components/DisplayThree';
 import DisplayFour from './Components/DisplayFour';
 import DisplayFive from './Components/DisplayFive';
+import DisplaySix from './Components/DisplaySix';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <DisplayThree />
         <DisplayFour />
         <DisplayFive />
+      </div>
+      <div className="bg-[#F7F7F7] xl:px-[70px]">
+        <DisplaySix />
       </div>
     </div>
   );

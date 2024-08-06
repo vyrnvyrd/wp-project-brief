@@ -55,7 +55,7 @@ const DisplayFive = () => {
   }, []);
 
   return (
-    <div className="mt-10 lg:mt-[100px] lg:flex xl:justify-center">
+    <div className="mt-10 mb-[70px] lg:mt-[100px] lg:flex xl:justify-center">
       <div className="bg-display-five w-full h-[471px] lg:w-[400px] xl:w-[412px] xl:h-[518px] mr-4">
         <div className="pl-10 pt-[70px] lg:pt-0">
           <p className="font-playfair-display w-[70%] lg:w-full font-bold text-[28px] lg:text-[36px] lg:mt-[90px] leading-[42px]">

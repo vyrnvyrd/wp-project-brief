@@ -102,6 +102,34 @@
   width: 155px;
 }
 
+.bg-display-six-one {
+  background-image: url('./Assets/Img/Display-Six-One.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-display-six-two {
+  background-image: url('./Assets/Img/Display-Six-Two.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-display-six-three {
+  background-image: url('./Assets/Img/Display-Six-Three.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-display-six-four {
+  background-image: url('./Assets/Img/Display-Six-Four.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (min-width: 375px) {
   .container-display-one {
     margin-top: 60px;
