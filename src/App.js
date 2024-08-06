@@ -6,6 +6,7 @@ import DisplayThree from './Components/DisplayThree';
 import DisplayFour from './Components/DisplayFour';
 import DisplayFive from './Components/DisplayFive';
 import DisplaySix from './Components/DisplaySix';
+import DisplaySeven from './Components/DisplaySeven';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div className="bg-[#F7F7F7] xl:px-[70px]">
         <DisplaySix />
+      </div>
+      <div className="py-[100px] flex justify-center">
+        <DisplaySeven />
       </div>
     </div>
   );

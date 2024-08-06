@@ -130,6 +130,23 @@
   background-size: cover;
 }
 
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #e9ecef;
+  width: 8px;
+  height: 8px;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 50%;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: black;
+}
+
+.p-carousel-next,
+.p-carousel-prev {
+  display: none;
+}
+
 @media only screen and (min-width: 375px) {
   .container-display-one {
     margin-top: 60px;

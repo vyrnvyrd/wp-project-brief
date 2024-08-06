@@ -13,6 +13,11 @@ import DisplaySixProductOne from './Img/Display-Six-One.png';
 import DisplaySixProductTwo from './Img/Display-Six-Two.png';
 import DisplaySixProductThree from './Img/Display-Six-Three.png';
 import DisplaySixProductFour from './Img/Display-Six-Four.png';
+import DisplaySevenProductOne from './Img/Display-Seven-Product-One.png';
+import DisplaySevenProductTwo from './Img/Display-Seven-Product-Two.png';
+import DisplaySevenProductThree from './Img/Display-Seven-Product-Three.png';
+import DisplaySevenProductFour from './Img/Display-Seven-Product-Four.png';
+import DisplaySevenProductFive from './Img/Display-Seven-Product-Five.png';
 
 export {
   Banner,
@@ -30,4 +35,9 @@ export {
   DisplaySixProductTwo,
   DisplaySixProductThree,
   DisplaySixProductFour,
+  DisplaySevenProductOne,
+  DisplaySevenProductTwo,
+  DisplaySevenProductThree,
+  DisplaySevenProductFour,
+  DisplaySevenProductFive,
 };
