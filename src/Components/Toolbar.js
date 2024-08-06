@@ -3,10 +3,10 @@ import { FaShoppingCart, FaUser, FaBars } from 'react-icons/fa';
 const Toolbar = () => {
   return (
     <div>
-      <p className="lg:hidden text-[10px] bg-[#9B622F] text-white w-full h-[32px] flex items-center justify-center font-cabin my-auto mr-[20px]">
+      <p className="lg:hidden text-[10px] bg-[#9B622F] text-white w-full h-[32px] flex items-center justify-center font-cabin my-auto mr-[20px] fixed top-0 z-10">
         FREE DELIVERY FOR ORDERS ABOVE $199
       </p>
-      <div className="shadow-md h-[55px] lg:h-[95px] flex items-center justify-between px-[25px] xl:px-[80px] fixed w-full bg-white top-10 lg:top-0 z-10">
+      <div className="shadow-md h-[55px] lg:h-[95px] flex items-center justify-between px-[25px] xl:px-[80px] fixed w-full bg-white top-8 lg:top-0 z-10">
         <div className="flex">
           <p className="font-bodoni text-[20px] xl:text-[28px] mr-[40px] cursor-pointer">
             LE DIAMONDS
